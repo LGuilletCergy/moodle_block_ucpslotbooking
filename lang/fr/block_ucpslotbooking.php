@@ -20,17 +20,17 @@
  * 33, boulevard du Port
  * 95011 Cergy-Pontoise cedex
  * FRANCE
- * 
+ *
  * Block to book time slots
- *  
- * @package    block_ucpslotbooking 
+ *
+ * @package    block_ucpslotbooking
  * @author     Brice Errandonea <brice.errandonea@u-cergy.fr>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- * 
- * 
+ *
+ *
  * File : lang/fr/block_ucpslotbooking.php
  * French texts
- * 
+ *
  */
 
 $string['pluginname'] = 'Réservation de créneaux horaires'; // Nom qui apparaîtra dans la liste des plugins.
@@ -103,7 +103,7 @@ $string['msgbefore'] = 'En-tête du message de confirmation';
 $string['msgafter'] = 'Message de confirmation';
 $string['config_enableunbooking'] = 'Autoriser les utilisateurs à annuler leur réservation';
 $string['config_datelastbooking'] = 'Date limite de réservation';
-$string['closingbookingssettings'] = 'Réglage de la fermeture des innscriptions';
+$string['closingbookingssettings'] = 'Réglage de la fermeture des inscriptions';
 $string['bookingclosed'] = ' - Inscription fermée';
 $string['numberofdays'] = 'Choisissez le nombre de jours avant la date prévue où les inscriptions seront fermées';
 $string['creategroup'] = 'Créer un groupe contenant tous les utilisateurs ayant réservé ce créneau';

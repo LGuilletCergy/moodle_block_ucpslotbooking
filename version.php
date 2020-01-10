@@ -20,20 +20,20 @@
  * 33, boulevard du Port
  * 95011 Cergy-Pontoise cedex
  * FRANCE
- * 
+ *
  * Block to book time slots
- *  
- * @package    block_ucpslotbooking 
+ *
+ * @package    block_ucpslotbooking
  * @author     Brice Errandonea <brice.errandonea@u-cergy.fr>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- * 
- * 
+ *
+ *
  * File : version.php
  * Version number
- * 
+ *
  */
 
-$plugin->version = 2017092500;
+$plugin->version = 2020011000;
 // Mettre la date du jour suivie de deux autres chiffres (au cas où on essaie plusieurs versions dans la même journée).
 
 $plugin->requires = 2015050500;
