@@ -20,15 +20,15 @@
  * 33, boulevard du Port
  * 95011 Cergy-Pontoise cedex
  * FRANCE
- * 
+ *
  * Block to book time slots
- *  
- * @package    block_ucpslotbooking 
+ *
+ * @package    block_ucpslotbooking
  * @author     Brice Errandonea <brice.errandonea@u-cergy.fr>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- * 
- * 
- * File : locallib.php 
+ *
+ *
+ * File : locallib.php
  * Various functions for the block
  */
 
@@ -38,7 +38,7 @@ function displaydate($datetext) {
     $dateparts = explode("-", $datetext);
 
     if ($dateparts[2] && ($CFG->lang == 'fr')) {
-        
+
         $day = "";
 
         if (date("l", mktime(0,0,0, $dateparts[2], $dateparts[1], $dateparts[0])) == "Monday") {
@@ -64,9 +64,9 @@ function displaydate($datetext) {
             $day = "Dimanche";
         }
 
-        return $dateparts[2]."/".$dateparts[1]."/".$dateparts[0];
+        return $day." ".$dateparts[2]."/".$dateparts[1]."/".$dateparts[0];
     } else {
-        return date("l", mktime(0,0,0, $dateparts[2], $dateparts[1], $dateparts[0])).$datetext;
+        return date("l", mktime(0,0,0, $dateparts[2], $dateparts[1], $dateparts[0]))." ".$datetext;
     }
 }
 
