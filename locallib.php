@@ -37,9 +37,6 @@ function displaydate($datetext) {
 
     $dateparts = explode("-", $datetext);
 
-    print_object($dateparts);
-    print_object($CFG);
-
     if ($dateparts[2] && ($CFG->lang == 'fr')) {
 
         $day = "";
